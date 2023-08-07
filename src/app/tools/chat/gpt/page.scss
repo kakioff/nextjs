@@ -1,0 +1,16 @@
+.menu-list {
+    &-item{
+        @apply opacity-0 transition-all;
+    }
+    &:hover {
+        .menu-list-item {
+            @apply opacity-100;
+        }
+    }
+}
+
+.input{
+    .MuiOutlinedInput-root{
+        @apply rounded-r-none
+    }
+}

@@ -1,0 +1,6 @@
+.loading {
+    @apply fixed start-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 scale-150 shadow-md;
+}
+.loaded {
+    @apply fixed shadow-none;
+}
